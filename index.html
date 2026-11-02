@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of ANNAPOORNESHWARI GS, B.Tech Information Technology student.">
+<title>ANNAPOORNESHWARI GS | Portfolio</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2f;--text:#eef2ff;--muted:#aab5d0;--accent:#7c9cff;--accent2:#7cf0cf}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 80% 0%,#1b2a52 0,transparent 32%),var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit;text-decoration:none}
+nav{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:16px max(6%,calc((100% - 1100px)/2));background:#0b1020e8;backdrop-filter:blur(12px);border-bottom:1px solid #ffffff12}
+.logo{font-weight:800;letter-spacing:.04em;color:var(--accent2)}
+.navlinks{display:flex;gap:20px;flex-wrap:wrap;font-size:.93rem;color:var(--muted)}
+.navlinks a:hover{color:var(--accent2)}
+main{max-width:1100px;margin:auto;padding:0 24px}
+.hero{min-height:76vh;display:grid;grid-template-columns:1.4fr .8fr;gap:44px;align-items:center;padding:76px 0}
+.eyebrow{color:var(--accent2);font-weight:700;letter-spacing:.13em;text-transform:uppercase;font-size:.8rem}
+h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.05;letter-spacing:-.045em;margin:16px 0}
+h1 span{color:var(--accent)}
+.lead{font-size:1.15rem;color:var(--muted);max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;padding:11px 17px;border-radius:12px;font-weight:700;border:1px solid #ffffff25}
+.btn.primary{background:var(--accent);color:#081020;border-color:transparent}
+.btn:hover{transform:translateY(-2px)}
+.profile-card{padding:30px;border:1px solid #ffffff18;border-radius:25px;background:linear-gradient(145deg,#182442,#11182a);box-shadow:0 24px 70px #0005}
+.avatar{width:90px;height:90px;border-radius:24px;display:grid;place-items:center;font-size:2rem;font-weight:800;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#10172a;margin-bottom:20px}
+.profile-card h2{margin:0 0 4px}.muted{color:var(--muted)}
+.taglist{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.tag{font-size:.85rem;padding:5px 10px;border-radius:99px;background:#ffffff0c;border:1px solid #ffffff18;color:#dce5ff}
+section{padding:62px 0;border-top:1px solid #ffffff14}
+.section-kicker{color:var(--accent2);font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.12em}
+h2.section-title{font-size:2rem;margin:5px 0 24px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{padding:23px;border:1px solid #ffffff17;border-radius:18px;background:#ffffff06}
+.card h3{margin:0 0 8px}.card p{margin:0;color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill{padding:10px 14px;border-radius:12px;background:#141f39;border:1px solid #ffffff17}
+.project-top{display:flex;justify-content:space-between;gap:12px;align-items:center}
+.project-top span{font-size:.8rem;color:var(--accent2)}
+footer{text-align:center;padding:30px 20px;color:var(--muted);border-top:1px solid #ffffff14}
+@media(max-width:720px){nav{align-items:flex-start;gap:12px;flex-direction:column}.navlinks{gap:12px}.hero{grid-template-columns:1fr;padding:55px 0;gap:25px}.grid{grid-template-columns:1fr}.profile-card{max-width:480px}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="#home">ANNAPOORNESHWARI GS</a>
+  <div class="navlinks"><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</nav>
+<main>
+  <header class="hero" id="home">
+    <div>
+      <div class="eyebrow">B.Tech IT Student · Aspiring Developer</div>
+      <h1>Hi, I'm <span>Annapoorneshwari.</span></h1>
+      <p class="lead">I'm a first-year Information Technology student at Vellore Institute of Technology, building my programming skills and exploring how technology can solve real-world problems.</p>
+      <div class="actions"><a class="btn primary" href="#projects">Explore my work ↓</a><a class="btn" href="#contact">Contact me</a></div>
+    </div>
+    <aside class="profile-card">
+      <div class="avatar">AG</div>
+      <h2>ANNAPOORNESHWARI GS</h2>
+      <div class="muted">B.Tech — Information Technology</div>
+      <div class="taglist"><span class="tag">Curious learner</span><span class="tag">Python</span><span class="tag">Problem solving</span></div>
+      <p class="muted" style="margin-top:20px">Registration number<br><strong style="color:var(--text)">26BIT0243</strong></p>
+    </aside>
+  </header>
+  <section id="about"><div class="section-kicker">A little introduction</div><h2 class="section-title">About Me</h2>
+    <div class="card"><p>I'm an enthusiastic Information Technology student developing a strong foundation in programming and computer science. I enjoy practising coding questions, learning new concepts, and improving through hands-on work. I'm looking forward to building projects that strengthen my technical and problem-solving abilities.</p></div>
+  </section>
+  <section id="education"><div class="section-kicker">My learning journey</div><h2 class="section-title">Education</h2>
+    <div class="card"><h3>B.Tech in Information Technology</h3><p>Vellore Institute of Technology (VIT), Vellore</p><p style="margin-top:8px">First year · Add your expected graduation year if required</p></div>
+  </section>
+  <section id="skills"><div class="section-kicker">Tools I'm learning</div><h2 class="section-title">Skills</h2>
+    <div class="skills"><span class="skill">Python</span><span class="skill">Functions</span><span class="skill">Recursive functions</span><span class="skill">Problem solving</span><span class="skill">Learning HTML &amp; CSS</span></div>
+    <p class="muted" style="margin-top:14px">This list is a starting point. Keep only the skills that accurately reflect your current experience.</p>
+  </section>
+  <section id="projects"><div class="section-kicker">Things I'm working on</div><h2 class="section-title">Projects &amp; Learning</h2>
+    <div class="grid">
+      <article class="card"><div class="project-top"><h3>Python Practice Programs</h3><span>Practice</span></div><p>Beginner coding exercises to practise functions, recursion, and logical problem solving. Add links to selected programs when you upload them.</p></article>
+      <article class="card"><div class="project-top"><h3>Personal Portfolio Website</h3><span>Web design</span></div><p>A personal website presenting my education, current skills, and learning journey. This is my first step towards documenting my work online.</p></article>
+    </div>
+  </section>
+  <section id="contact"><div class="section-kicker">Let's connect</div><h2 class="section-title">Contact</h2>
+    <div class="card"><p>I'm interested in learning, collaborating with classmates, and exploring opportunities to grow as a developer.</p>
+      <div class="actions"><a class="btn primary" href="mailto:">Email me (add your email)</a><a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">Explore GitHub</a></div>
+      <p class="muted" style="margin-top:14px">Add your professional email or personal profile links before sharing publicly. Do not publish private contact information unless you are comfortable doing so.</p>
+    </div>
+  </section>
+</main>
+<footer>© <span id="year"></span> ANNAPOORNESHWARI GS · Student Portfolio</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body></html>
